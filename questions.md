@@ -2,9 +2,7 @@
 
 1. How many total urls we are going to have? 
 
-2. What characters can be used in hash?
-
-These two are important, because the hash/short url size depends on this.
+2. What characters can be used in hash? (These two are important, because the hash/short url size depends on this.)
 
 3. Can user update or delete previously created short urls? 
 
