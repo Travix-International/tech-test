@@ -26,7 +26,7 @@ Since Redis supports data expiration, we are not going to include this paramente
 For one-shot functionality we can use Redis Lists. So that the value will be inaccessible after pop ( this isn't a good solution for scalability. For example : what will we do if we want to support 2 shot links or n shot links. The better approach would be to use a counter in our entity and decrement it after usage but let's say that it hasn't been specified )
 
 ### Redis Key :
-* hash ( a randomly generated unique 3 to 7 character string. Size depends on the total number of urls that we are going to have. Assuming that we are going to have only alphanumerical short urls our alphabet consists of 26 + 26 + 10 = 62 letters. So with a 3 char hash we can represent 62 * 62 * 62 = 238 K unique urls )
+* hash ( a randomly generated unique 3 to n character string. Size depends on the total number of urls that we are going to have. Assuming that we are going to have only alphanumerical short urls our alphabet consists of 26 + 26 + 10 = 62 letters. So with a 3 char hash we can represent 62 * 62 * 62 = 238 K unique urls. Hash generation function/algorithm is an implementation detail.)
 
 ### Redis Value :
 * url ( the original url  )
