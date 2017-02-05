@@ -19,9 +19,11 @@ So, for these two Use Cases we basically need a web application with two endpoin
 ## Domain Model :
 We'll have one entity called "Link" ( we are linking/mapping a hash to a url ). So our RedisKey will be hash, and our RedisValue will be the "Link" entity.
 
-### TTL : Since Redis supports data expiration, we are not going to include this paramenter in our domain model. We just can set a lifetime to a RedisKey.
+### TTL : 
+Since Redis supports data expiration, we are not going to include this paramenter in our domain model. We just can set a lifetime to a RedisKey.
 
-### One-Shot : For one-shot functionality we can use Redis Lists. So that the value will be inaccessible after pop ( this isn't a good solution for scalability. For example : what will we do if we want to support 2 shot links or n shot links. The better approach would be to use a counter in our entity and decrement it after usage but let's say that it hasn't been specified )
+### One-Shot : 
+For one-shot functionality we can use Redis Lists. So that the value will be inaccessible after pop ( this isn't a good solution for scalability. For example : what will we do if we want to support 2 shot links or n shot links. The better approach would be to use a counter in our entity and decrement it after usage but let's say that it hasn't been specified )
 
 ### Redis Key :
 * hash ( a randomly generated unique 3 to 7 character string. Size depends on the total number of urls that we are going to have. Assuming that we are going to have only alphanumerical short urls our alphabet consists of 26 + 26 + 10 = 62 letters. So with a 3 char hash we can represent 62 * 62 * 62 = 238 K unique urls )
