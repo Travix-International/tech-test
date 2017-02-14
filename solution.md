@@ -1,12 +1,10 @@
 # Solution.md
 
-Timix is a time recording application used to map user log time from Jira tasks
- with the contracted time for each user but also Thresh between users
-Application  retrieves User tasks from Jira but also from  HR system and write it to a database engine
-A UI with several views  provides functionality to the user to map his workload  but also export reports of his worklog
-based on groups -type of users the application provides permissions to different level
+Timix will be a time recording application used to map user log time from Jira tasks with the contracted time for each user, but also Thresh between users and tasks.
+Application  retrieves team tasks from Jira and also retreives contract details HR system and write it to a database engine
 
-The above design is  Proof of concept and several diagrams has to be added in order to be functional after decisions that has to be taken .
+A UI/Webbased with several views  provides functionality user to map his workload or manage tasks  but also he can  export reports of his worklog .
+Applicaiton will manage permisssions based on group types of users the application provides permissions to different level
 
 Application will need 3 instances Application Server ,Rest Server ,Database Server
 
@@ -34,8 +32,10 @@ Gui is one of the most important parts of this application
 has to be quick and user friendly without many input requirements. 
 Will be a plus  many functions to be automated in order to make user experience fast 
 Recommendation for front end framework can be  Angular Js or Ext-js or any similar js framework object oriented
- angular material or Bootstrap  framework has to be applied in order the user to be able to login in parallel from several devices 
+angular material or Bootstrap  framework has to be applied in order the user to be able to login in parallel from several devices also mobile 
 
+
+The above design is  Proof of concept and is NOT complete design , several diagrams has to be added in order to be functional after decisions that has to be taken .
 
 
 
