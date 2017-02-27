@@ -3,7 +3,7 @@
 Given information allows to choose a generic high-performance, distributed memory caching system option, without complex NoSQL query features, persistence and secondary indexes, with preferably LRU policy and good TTL mechanism (this is very obvious, though probably needed to be mentioned by the task). 
 
 ## Technology
-See *[scale.md](https://github.com/baulus/fork-my-rep/scale.md)*
+See *[scale.md](scale.md)*
 
 ## Data structure
 The unique search conditions (assumed as finite and relatively small) should be concatenated (in predefined order), hashed and served as the cache key.  
