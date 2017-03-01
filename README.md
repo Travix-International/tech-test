@@ -184,13 +184,13 @@ When a customer searches for a particular route (e.g. AMS to JFK), we return a l
 
 Each fare has a price with two decimals, and it’s valid for up to forty eight hours (and it’s a truly random number).
 
-Roughly, there are 20,000 airports in the world, but not airport is connected to each other, so there are only about 15,000 unique routes, combinations of a departure airport and an arrival one. Naturally not every route is equally popular, so there isn’t an even distribution of fares over the routes.
+Roughly, there are 20,000 airports in the world, but not all airports are connected to each other, so there are only about 15,000 unique routes, combinations of a departure airport and an arrival one. Naturally not every route is equally popular, so there isn’t an even distribution of fares over the routes.
 
 In order to make good use of this searches and reduce the strain on our poor servers, we want you to build a Fare Cache.
 
 This Fare Cache:
 
-* Can be queried to obtain the cheapest route on any route in the world: When we query for the cheapest flight on a route, this is defined as "the fare with the lowest price on that route, which is still valid at the moment of querying"
+* Can be queried to obtain the cheapest flight on any route in the world: When we query for the cheapest flight on a route, this is defined as "the fare with the lowest price on that route, which is still valid at the moment of querying"
 
 * Is going to be used on our websites which receive millions of visits per day
 
