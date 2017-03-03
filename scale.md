@@ -3,4 +3,4 @@ Once I've choosen to make a nodejs app, scalability must be provided with an ext
 
 On the persistency side mongodb is already scalable by itself.
 
-To increase speed in responses i've decided also to add a cache level implemented via Redis.
+To increase speed in responses i've decided also to add a cache level implemented via Redis. Morover with a wise use of the timeToLive option we can let redis "forget" old orders and carts.
