@@ -4,7 +4,7 @@
 
 My approach to provide the Url Shortener service is simple and straight forward. The whole concept is providing aliases to urls which will be stored in the database, including the full url. Additional data as custom headers or validity/expiry will be included. We use reference data (ValidityType) to define different validities approaches like single access, expiry, etc.
 
-![Erd Diagram](https://github.com/ivi-hamiti/tech-test/erd-diagram.png)
+![Erd Diagram](https://github.com/ivi-hamiti/tech-test/blob/master/erd-diagram.png)
 
 ## Application
 
