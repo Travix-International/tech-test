@@ -4,7 +4,7 @@ I will try to build a solution for the scenario 1. URL shortener.
 
 My approach would be:
 
-Create a table with three columns:
+Create a table with seven :) columns:
 
 ID | LongUrl | Method | TinyUrlKey | HasBeenUsed | DateCreated | DateExpires
 
