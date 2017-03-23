@@ -1,1 +1,3 @@
 # Solution.md
+
+It'd consist of app which could be built using web frameworks like React Native, Ionic or PhoneGap. I prefer using React Native since its truly a native app. I suppose first step would be to develop the create a Mock API with the desirable outputs for each call, so app developers can go ahead and start developing. In the meantime, unit tests can be written to validate the outputs before the actual development even starts. After that the real development for the API can begin and methodically can be divided into clean releases which clearly specify what the API would provide while at the same time app would be close to finish. 
