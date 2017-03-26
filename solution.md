@@ -1,6 +1,6 @@
 # Solution.md
 
-### Technology Stack: ReactJs, NodeJS, MongoDB
+#### Technology Stack: ReactJs, NodeJS, MongoDB
 
 The whole Shopping cart experience would be in a stepper feature, in order for the user to see which steps he/she is in or how many steps he/she needs to complete and will be a single page application.
 
