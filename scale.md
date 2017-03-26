@@ -1,18 +1,18 @@
 # Scale
 
 ### Bottleneck:
-	The First step to solving any problem is to clearly and accurately define what the problem is.
+* The First step to solving any problem is to clearly and accurately define what the problem is.
 
 ### Scalability:
-	* Scaling Up:
-		increasing the number of CPU’s  or adding CPU’s on a single box.
-	* Scaling Out:
-		increasing the number of boxes.
+* Scaling Up:
+	increasing the number of CPU’s  or adding CPU’s on a single box.
+* Scaling Out:
+	increasing the number of boxes.
 
 ### Splitting Database: Horizontally and Vertically:
-	* Split Database Horizontally into multiple coupled sub-databases.
-	* Split Database Vertically into multiple database base on some discrete attributes.
+* Split Database Horizontally into multiple coupled sub-databases.
+* Split Database Vertically into multiple database base on some discrete attributes.
 
 ### Database:
-	* Cache Database Queries
-	* Database Indexes
+* Cache Database Queries
+* Database Indexes
