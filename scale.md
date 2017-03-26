@@ -16,3 +16,6 @@
 ### Database:
 * Cache Database Queries
 * Database Indexes
+
+### Queue:
+* Using of workers and queues to cache output that takes time to generate or also use workers to asynchronously process large amount of input.
