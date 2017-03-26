@@ -2,9 +2,10 @@
 
 ### Technology Stack: ReactJs, NodeJS, MongoDB
 
-#### The whole Shopping cart experience would be in a stepper feature, in order for the user to see which steps he/she is in or how many steps he/she needs to complete and will be a single page application.
+The whole Shopping cart experience would be in a stepper feature, in order for the user to see which steps he/she is in or how many steps he/she needs to complete and will be a single page application.
 
-#### Items:  will have description, tags and type to help the users query items effectively.
+#### Items:  
+will have description, tags and type to help the users query items effectively.
 
 #### Cart: 
 Adding an item to the cart will automatically create a cart under the user’s id  in the database, so the user can access the cart across multiple visits and across platforms from the user’s dashboard and with relevant information such as:
