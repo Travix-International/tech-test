@@ -1,0 +1,7 @@
+I'm proposing a sort of "flights' DNA" system that will create a single key that can be tracked easily and also keep in our cache the full payload we received from the flights search APIs instead serialize it. Also, we'll expire it each 5 minutes, based on the research I did, will be enough to keep our records updated.
+
+Using the proposal of a "flights' DNA system" we'll rely to client side the key combination instead do it in the server side. In other words, we'll use client side and, as soon as users have set their filters, it will query to our cache, already set and localized, and it can query a the full payload data set already saved or, if expired, update this payload again accessing a flight search API and updating our fare cache, but always keeping its "flight DNA" indexed.
+
+With a unique key or "DNA" we can index every single route from start and, during time, use legacy data to predict some seasonal changes before it really occurs and, also, use it as big data to cross data with several localized information and understand prices fluctuation in each region.
+
+The diagram just show the cache update and NOT the transfer expired data from fare cache to a historical data database.
