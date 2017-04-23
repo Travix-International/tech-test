@@ -10,7 +10,7 @@ As a general idea:
 
 ## Data Storage
 
-Conceptually, we are dealing with a mix of structured and less-structured data where the former lends itself more towards a relational and latter towards a graph model. The database technology does not need to be decided straight away. Due to plans to stick with Azure, we do constrain the choice to what is well supported on the cloud (MSSQL, Neo4j, Graph Engine to name a few). Initially, in-memory data providers are used to guarantee easy project setup and unit testing capabilities.
+Conceptually, we are dealing with a mix of structured and less-structured data where the former lends itself more towards a relational and latter towards a graph model. The database technology does not need to be decided straight away. Due to plans to stick with Azure, we do constrain the choice to what is well supported on the cloud ([MSSQL](https://www.microsoft.com/en-us/sql-server/sql-server-2016), [Neo4j](https://neo4j.com/), [Graph Engine](https://www.graphengine.io/) to name a few). Initially, in-memory data providers are used to guarantee easy project setup and unit testing capabilities.
 
 Benefits of using a relational model:
 - Relational database management systems are widely used and have stood the test of time.
@@ -31,7 +31,7 @@ The idea is to start off with a simple monolith with well-defined domain boundar
 
 Authentication is realized through a third-party OAuth 2.0 provider (i.e. [AspNet.Security.OAuth.Providers](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers)). This allows logging in with any major social media site.
 
-Http protocol is used for most of the communication between a client and a server. Websockets protocol (with fallback options) is used for real-time data (i.e. notifications of new posts in the feed) and potentially for transferring large files. TLS is applied for securing user data moving across the wire.
+Http protocol is used for most of the communication between a client and a server. Websockets protocol (with fallback options) is used for real-time data (i.e. notifications of new posts in the feed). TLS is applied for securing user data moving across the wire.
 
 A concept of event dispatcher is used to perform actions in the system. For example, if a user creates a new post, the dispatcher sends the command to its corresponding handler which makes use of necessary services (see sequence diagram below). Once a command is handled, generated events are stored and published. A centralized dispatcher also allows easily applying middleware such as logging to the system.
 
