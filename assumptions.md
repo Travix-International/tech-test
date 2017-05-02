@@ -9,3 +9,5 @@
 - TDD will be implemented to ensure high quality code.
 - Integration tests will be implemented.
 - There will be some sort of load balancer.
+- Team is working in an agile environment.
+- Team is using Git repo to store code.
