@@ -9,3 +9,5 @@ There will be fail over servers, REDIS can handle this extremely good for cachin
 We will have to come up with a database server design to handle millions of url information. We will have multiple databases where we will be storing the URLs in. Maybe some sort of a distributed has table.
 
 We will also use another cache server where we will be caching Short URLs and based on their popularity will indicate howlong should the short urls be cached. Popular URLs will be cached for a longer time to reduce the calls to the database.
+
+We will also implement indexing on the table to improve the read access.
