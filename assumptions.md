@@ -1,4 +1,11 @@
 # Assumptions
 - Focusing on MVP product, we should first develop the API.
 - The API will be developed as a REST service.
-- There should be a lot more redirection requests compared to URL shortening generations. With a few calculations, we can estimate howmuch hard drive space do we require.
+- There should be a lot more redirection requests compared to URL shortening generations. There might be 10 million users that want to access the short urls per day, expect about 30 million requests per month.
+- We are going to use base64 encoding, there will allow us to use capital/lowercase letters and numbers.
+- There should be some sort of load balancing.
+- Replication should also be done on the databases.
+- Only alphanumeric characters should be used for the short url.
+- TDD will be implemented to ensure high quality code.
+- Integration tests will be implemented.
+- There will be some sort of load balancer.
