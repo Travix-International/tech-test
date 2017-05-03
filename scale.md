@@ -11,3 +11,5 @@ We will have to come up with a database server design to handle millions of url 
 We will also use another cache server where we will be caching Short URLs and based on their popularity will indicate howlong should the short urls be cached. Popular URLs will be cached for a longer time to reduce the calls to the database.
 
 We will also implement indexing on the table to improve the read access.
+
+If we have multiple databases and want to spread the load accross multiple databases with some sort of DB partitioning, we can create a different shortURL to indicate where should each short URL be stored. For Example: trav.ix/WFr49F-TV1 where the -TV1 indicates it should be stored in TV1 database.
