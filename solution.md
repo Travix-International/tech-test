@@ -7,4 +7,5 @@
 - To get the original URL, it will be a simple get request with the short key. For example: travix.com/shorty/v1/short/WFr49F
 - The API will be versioned for example, travix.com/shorty/v1
 - Example of the shortUrl will be trav.ix/WFr49F
+- If we have multiple databases and want to spread the load accross multiple databases with some sort of DB partitioning, we can create a different shortURL to indicate where should each short URL be stored. For Example: trav.ix/WFr49F-TV1 where the -TV1 indicates it should be stored in TV1 database.
 - We will be running a cleanup service to remove any expired urls and it will also ensure that the generated key database does not have keys that are flagged as being used when the exists in the main db.
