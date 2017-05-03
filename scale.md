@@ -1,5 +1,5 @@
 # Scale
-We will be using a load balancers and we will implement a more intelligent approach than a round robin approach where it will route traffic based on each server's load, load balancing will be between the following:
+We will be using a load balancers and we will implement a more intelligent approach where it will route traffic based on each server's load, load balancing will be between the following:
   - API and Cache Servers
   - API and Database Servers
 
