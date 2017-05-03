@@ -1,7 +1,7 @@
 # Assumptions
 - Focusing on MVP product, we should first develop the API.
 - The API will be developed as a REST service.
-- There should be a lot more redirection requests compared to URL shortening generations. There might be 10 million users that want to access the short urls per day, expect about 30 million requests per month.
+- There should be a lot more redirection requests compared to URL shortening generations. There might be about 10 million users that want to access the short urls per day, expect about 300 million requests per month.
 - We are going to use base64 encoding, there will allow us to use capital/lowercase letters and numbers.
 - There should be some sort of load balancing.
 - Replication should also be done on the databases.
