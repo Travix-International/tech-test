@@ -27,4 +27,4 @@ Why POST is like this? Other solutions could be:
 Furthermore:
 1. When expired / Oneshot / 404 and requested by end-user, system will detect and mark Deleted field in DB = true
 2. Graceperiod will be given for a Deleted URL (e.g. 3 months) before it physically deleted from DB (or re-used)
-3. I prefer to do the checks for each Found Record rather than a Job running every day because A) Real time detection B) Jobs increase resources consumption but per request it is distributed bit by bit
+3. I prefer to do the checks for each Found Record rather than a Job running every day because A) Real time detection B) Jobs increase resources consumption but per request it is distributed bit by bit.
