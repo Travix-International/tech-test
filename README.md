@@ -82,7 +82,7 @@ For this new Travix URL shortening system we have obtained the special domain tr
 
 * Of any scheme
 
-* Using GET or POST
+* Using GET or POST.
 
 * Containing some non standard headers
 
