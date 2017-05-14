@@ -5,3 +5,4 @@
 3. Any scheme means HTTP and HTTPS
 4. Threads will be managed by web-server level (e.g. apache)
 5. High availability and Cloud will be managed at server-level
+6. Standard LAMP environment
