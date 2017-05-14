@@ -1,0 +1,56 @@
+#explanation
+
+1. User Authentication: This class is utilized to get user information from the database and is
+for authenticating the users. 
+Authenticate User: This message is used to authenticate a particular user who has provided
+the login credentials and wishes to login in the system. This method checks the credentials in
+the database.
+Check User Name: This method checks to see if the provided username already exists in the
+database. If there is an existing user with the same name, then the user is prompted to select
+another username to create an account.
+Register User: This method allows a new user to register for an online shopping-cart
+account by entering a valid username and password. If the username already exists in
+database, the user will be prompted to choose another name.
+Login User: This method allows the existing users to log in to the database with the
+credentials they used for first registering into the application.
+2. DB Controller: This class is used for getting users and product information from the
+database, and it is also used to update the database with the information about new user
+registration, product checkout, and user details.
+Initialize DB: This method allows the initialization of a database on the first run of the
+application.
+Retrieve Items List: This method fetches all items from the code/workspace into the
+database and allows the administrator to view information about the items. 
+
+Retrieve Category List: This method retrieves the list of all categories that are available for
+the shopping-cart application.
+Retrieve User’s Details: This role locates all the registered users in the database and also
+fetches any new user who registers by completing the user-authentication form.
+Get Order Details: This role updates the row in the database with the details of the user who
+checks out the items and successfully places an order.
+Get Ordered Product Details: This role inputs the details of the order once the items are
+checked out and the order is successfully placed. This role updates the row in the database to
+show the details of products that have been checked out.
+3. Place Order: This class is used to process all information regarding the order of products.
+Get Checkout Information: This method provides information about items in the shopping
+cart once the checkout method is called. This will further invoke the user-authentication
+method.
+Get User Authentication: This method fetches the user-authentication information. The
+place-order class is invoked once all three methods are successfully called. If the user
+authentication fails, the place-order class is not executed.
+Retrieve Order Form Information: This method is executed once user authentication is a
+success. This method evaluates an order form. If any of the information is incomplete or is invalid, 
+then an error message is depicted, and the place-order class is not called.
+4. Cart: This class invokes the shopping cart. This class can be called in cases when no items
+are added to the cart, when items are already there in the cart, or when the user adds an item
+to the cart.
+
+Get Items: This method retrieves information for all the items that the user adds to the
+shopping cart.
+5. Checkout: This class invokes the checkout button. The checkout class is only called when
+there are items in the shopping cart. In the case of an empty shopping cart, the checkout class
+is not called, thus no checkout option is available on user-interface screen.
+Retrieve Cart Info: This method retrieves the shopping cart’s information if there are items
+in the cart, and then, the checkout class is called.
+Get Items: This method gets all the items in the shopping cart. If the count of items in
+shopping cart is greater than 0, then this function updates the card information, indicating
+that cart is not empty which then calls the checkout class. 
