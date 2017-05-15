@@ -1,7 +1,6 @@
 # Questions
 •	Are there any promotion codes or offers? 
 •	Adding items into shopping cart is only for logged in users (database) or also for guests (local storage, cookie, and session storage) as well?
-•	When click save or checkout ... Do I have to redirect user to login or sign up page?
 •	Is there a reorder feature of the same cart after checkout for future purchases?
 •	Do I have to handle timeout? shopping cart can use critical timing system to handle the timeouts i.e. (Ticketing System) 
 •	Shopping get updated from server using web socket, socket.io or signalR to notify the user?
