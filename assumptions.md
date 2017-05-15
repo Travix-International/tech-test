@@ -1,5 +1,5 @@
 # Assumptions
-•	Web based applications 
+•	Web/mobile based application
 •	Client using local storage/session storage is allowed 
 •	Security part is handled by another module 
 •	Virtual hosting allows us to keep downtime to a minimum, even in the case of complete hardware failure
