@@ -20,3 +20,7 @@ Does it need to allow for multiple prices - eg sale price, wholesale price, batc
 
 Does it need to allow for customers to access different baskets on different devices?
 
+What hosting platform will be used?
+
+Is there a particular server technology which will be used?
+
