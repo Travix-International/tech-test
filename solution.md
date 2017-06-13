@@ -13,6 +13,9 @@ IoC dependency injection is also used for promotion codes, to allow for differen
 
 The tax calculation is carried out by a service class. The Basket class calls a servicelocator interface to access the methods of the tax service. This makes the solution easier to manage and test.
 
+Items in the shopping basket are stored as an array of structs which contain the product object, and a few other fields like quantity, options, unitprice etc. When the payment is completed, fullfilment uses this table to update inventory, create invoices and generate order sheets which is then passed on to the warehouse for order despatch.
+For high scalability system we may need to change the iProduct field to just have the product ID and then include some of the product data in the bagitems struct. This does mean some minor duplication of data and is not strictly DRY, but it does mean that posting the basket data to the server is much faster. 
+
 
  
 
