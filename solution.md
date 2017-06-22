@@ -16,7 +16,7 @@ Develop a frontend that allow multiple media types I recommend to use a componen
  
 ## Diagram Explain:
 
-(system-context-diagram.png)
+![alt text](/system-context-diagram.png )
  
 * APP EC2 Webserver. Will deliver the application to user and the public side api for mobile. This Web Server should run in elastic beanstalk stack with load balance in multiple regions. This can be a PHP application for the backend side with laravel. The front end application will be separated build from the backend.
  
