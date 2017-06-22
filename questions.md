@@ -1,20 +1,20 @@
 # Questions
  
-## Budget of solution?
+* Budget of solution?
 
-## Times for delivery the solution. 
+* Times for delivery the solution. 
 
-## Team that will work on it.
+* Team that will work on it.
 
-## Budget for after deliverty maintenance.
+* Budget for after deliverty maintenance.
 
-## What stack should this be done.
+* What stack should this be done.
  
-## Can we use frameworks such laravel?
+* Can we use frameworks such laravel?
  
-## What framework on the frontend should be used?
+* What framework on the frontend should be used?
  
-## What will be the multiplatform strategy?
+* What will be the multiplatform strategy?
 
 
  

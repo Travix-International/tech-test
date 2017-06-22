@@ -15,6 +15,8 @@ Using Website location for when the user is on the website and using background 
 Develop a frontend that allow multiple media types I recommend to use a component based frontend development library such Vue, Angular or React to be able to have reusable components across the platforms. Also using react we can leverage react native for the mobile application and reuse component more efficient.
  
 ## Diagram Explain:
+
+(system-context-diagram.png)
  
 * APP EC2 Webserver. Will deliver the application to user and the public side api for mobile. This Web Server should run in elastic beanstalk stack with load balance in multiple regions. This can be a PHP application for the backend side with laravel. The front end application will be separated build from the backend.
  

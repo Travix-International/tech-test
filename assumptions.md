@@ -10,10 +10,10 @@
  
 ## 3rd Party
  
-Location: MaxMind GeoIp https://www.maxmind.com/en/home
-Auth: Auth 0 Authentification https://auth0.com/
-Stack; AWS https://aws.amazon.com/
-Backend: Laravel https://laravel.com/
-FrontEnd: Vue.js https://vuejs.org/
+* Location: MaxMind GeoIp https://www.maxmind.com/en/home
+* Auth: Auth 0 Authentification https://auth0.com/
+* Stack; AWS https://aws.amazon.com/
+* Backend: Laravel https://laravel.com/
+* FrontEnd: Vue.js https://vuejs.org/
  
  
