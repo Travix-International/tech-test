@@ -8,5 +8,9 @@
  
 * The amazon lamda will guarantee microservices independence so any future improvement will allows constant integration so we can able to scale without disrupting the service if code optimization are needed.
  
+* Tha Auth0 Service can be replace over time with a custom made service to reduce the cost once the 15.000 users a day is reached and the cost goes to 1500$ a month.
+
+
+
  
  
