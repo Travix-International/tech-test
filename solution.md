@@ -5,18 +5,18 @@
 
 As a first step should be collected a good team of IT workers.
 On my opinion at the beginnign of project it could contain 1-2 designers, 2-3 Front-end developers, 2-3 Backend developers, 1-2 testers, Team lead or(and) project manager for communications with customer(product owner).
-Customers, team Lead and project manager at first stage should orginize some meetings and conversations about future progect strict requarements  according their needs and options. 
+Customers, team Lead and project manager at first stage should orginize some meetings and conversations about future project strict requarements  according their needs and options. 
 This will be very helphul for future development and testing problem solving.
-At the beginnign it's gonna be a independed module with possibility to include it in any project for inner using and salling product to other e-commers sites owners, adding new features and expecting and be preparing for progect growing in future.
+At the beginnign it's gonna be a independed module with possibility to include it in any project for inner using and salling product to other e-commers sites owners, adding new features and expecting and be preparing for project growing in future.
 Also at this moment better to organize Agile communication in team with customer, setting userstories and tasks, decide, how long one spring should lasts and the format of each demo.
 Creating separate chat channel (skype, slack etc.) into team for quick communications for common problems solving. Good solutions in case of different localizations of developers in others offices, citys and even countries.
-Git repositore for commits, merging and code reviews.
+Git repository for commits, merging and code reviews.
 
 <h4>Mockups preparations.</h4>
 
 According to recuarements desiners should create few mockups for different devices and resolutions, because applications should look great and be functional not only in desktop. 
-If it possible, create grafics and icons in swg format for better displaying it in retina/not retina view. In case of .png, .jpg creating double scaling images. 
-Desiners also should know, how to create comfortable and using-frendly pages design and grids system for users. Choose one general slyle in elements, measures, fonts etc.
+If it possible, create grafics and icons in svg format for better displaying it in retina/not retina view. In case of .png, .jpg creating double scaling images. 
+Desiners also should know, how to create comfortable and using-frendly pages design and grids system for users. Choose one general style in elements, measures, fonts etc.
 From mockups perspective this should be page with goods in card, with table and(or) list view. Must have sorting, filtering in defferent goods categories (type of good, prose,locations...);
 Each good will have detail page with additive informations. Also in common and detaield view could persists rating, summary, customers reviews, in case of common page in short way. Also persist link into private customer cabinet with orders informations. Could be included block with chat for communications between user and seller in separate link.
 After current goods choosing user will be provide to payment section. After all payment steps will be relocationg to success page.
@@ -42,7 +42,7 @@ Creating documents with common code style for all developers, also for naming. P
 Main page has table view component and list view component. Component for filtering, groupping, sorting, common for table and list.
 If nessesary operations with server data, will be created reducer and operation fle for each component.  
 When user clicking on item good detaled page opening. Detailed page has picture, good informations block, rating and reviews component, button for buying current item.
-Then page with payments options will be opened. Better to communicate with already prepared system with paymens options which will have most popular payment ways (visa, mastercars, paypat etc).
+Then page with payments options will be opened. Better to communicate with already prepared system with paymens options which will have most popular payment ways (visa, mastercard, paypal etc).
 After succesful payment user will be redirected to succes page. In case of order errors in rejections page.
 
 <h6>Private user room.</h6>
