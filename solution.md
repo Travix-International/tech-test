@@ -1,7 +1,7 @@
 # Solution.md (Simple shopping cart system)
 
 
-First steps and preparations.
+<h2>First steps and preparations.</h2>
 
 As a first step should be collected a good team of IT workers.
 On my opinion at the beginnign of project it could contain 1-2 designers, 2-3 Front-end developers, 2-3 Backend developers, 1-2 testers, Team lead or(and) project manager for communications with customer(product owner).
