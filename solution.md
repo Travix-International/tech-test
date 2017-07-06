@@ -58,5 +58,5 @@ All components should be covered with unit tests with Jest test library.
 In this repository App structure was represented in card-app-structure.png.
 <img src="https://github.com/effel/tech-test/blob/master/card-app-structure.png">
 
-Interactions between data and react component showed on system-context-diagram.png 
+<p>Interactions between data and react component showed on system-context-diagram.png </p>
 <img src="https://github.com/effel/tech-test/blob/master/system-context-diagram.png">
