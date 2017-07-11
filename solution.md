@@ -7,7 +7,7 @@ database. It could give us flexibility to store different data types for each ki
 
 # Database Design
 The database design for this solution could be:
-# ShoppingList collection:
+  ** ShoppingList collection: **
     1. UserId //Foreign key of User collection
     2. ItemCategory
     3. ItemId //Foreign key of Item collection
