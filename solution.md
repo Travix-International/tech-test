@@ -7,17 +7,17 @@ database. It could give us flexibility to store different data types for each ki
 
 # Database Design
 The database design for this solution could be:
-    # ShoppingList collection:
-    . UserId //Foreign key of User collection
-    . ItemCategory
-    . ItemId //Foreign key of Item collection
-    . Count
-    . Tax
-    . Discount
-    . ExpirationTimeOfDiscount //After this time the discount can not be applied
-    . Price
-    . generateDescriptionFunction
-    . typeSpecificData
+# ShoppingList collection:
+    1. UserId //Foreign key of User collection
+    2. ItemCategory
+    3. ItemId //Foreign key of Item collection
+    4. Count
+    5. Tax
+    6. Discount
+    7. ExpirationTimeOfDiscount //After this time the discount can not be applied
+    8. Price
+    9. generateDescriptionFunction
+    10. typeSpecificData
 
 generateDescriptionFunction, typeSpecificData:
 These two items are provided by product service. generateDescriptionFunction is a string function which accepts
