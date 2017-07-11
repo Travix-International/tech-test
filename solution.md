@@ -5,18 +5,19 @@ storage of the browser for allowing unregistered costumers to save items before 
 We can use both SQL and NoSQL databases, but because of the type-specific data handling requirement, I prefer NoSQL
 database. It could give us flexibility to store different data types for each kind of products.
 
+# Database Design
 The database design for this solution could be:
-ShoppingList collection:
-. UserId //Foreign key of User collection
-. ItemCategory
-. ItemId //Foreign key of Item collection
-. Count
-. Tax
-. Discount
-. ExpirationTimeOfDiscount //After this time the discount can not be applied
-. Price
-. generateDescriptionFunction
-. typeSpecificData
+    # ShoppingList collection:
+    . UserId //Foreign key of User collection
+    . ItemCategory
+    . ItemId //Foreign key of Item collection
+    . Count
+    . Tax
+    . Discount
+    . ExpirationTimeOfDiscount //After this time the discount can not be applied
+    . Price
+    . generateDescriptionFunction
+    . typeSpecificData
 
 generateDescriptionFunction, typeSpecificData:
 These two items are provided by product service. generateDescriptionFunction is a string function which accepts
