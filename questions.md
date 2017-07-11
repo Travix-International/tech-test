@@ -1,4 +1,4 @@
 # Questions
 
 1. I didn't know by mentioning SIMPLE shopping cart system, do you mean we should use just local storage and client side
-solutions or we have to propose a solution which could be implemented in a short time?
+solutions or do we have to propose a solution which could be implemented in a short time?
