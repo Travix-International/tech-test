@@ -47,6 +47,4 @@ references in case the user is not logged in)
 * syncing capabilities to determine which information is more relevant and according
 to the user's choice.
 
-<sup>1</sup> Type by my understanding is rent, sale, service, etc. Item
-tags are too generic (and mutable) to be included as type information and therefore
-not a reliable source of information.
+<sup>1</sup> See assumptions
