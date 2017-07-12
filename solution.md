@@ -38,5 +38,15 @@ on the server takes precedence; this is because is impossible
 to determine that the user is using a public computer and someone else added a cart
 with some items that aren't you users choice.
 
+To implement this solution you should have an api that deal with
+
+* read request merging both item and cart information to produce efficient queries
+* create and update request paying attention to similarities in both item refs and metadata
+* delete request with references to one or multiple cart items(also dealing with local
+references in case the user is not logged in)
+* syncing capabilities to determine which information is more relevant and according
+to the user's choice.
+
 <sup>1</sup> Type by my understanding is rent, sale, service, etc. Item
-tags are too generic (and mutable) to be included as type information.
+tags are too generic (and mutable) to be included as type information and therefore
+not a reliable source of information.
