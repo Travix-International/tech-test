@@ -2,7 +2,7 @@
 
 The first step to scale an e-commerce system is to use a specialized solution
 like ElasticSearch or similar. Querying and searching are core features (and probably the most used)
-of any e-commerce system therefore the foundations in which you built must be
+of any e-commerce system, therefore the foundations in which you built must be
 solid and effective.
 
 You should also deal with the usual subjects, using load balancers (like PM2 for node), caching using
@@ -21,5 +21,5 @@ data could make all the difference. If the volume is too big you could also cons
 eg your resources served from low latency links.
 
 As rule of thumb e-commerce sites choose availability over consistency unless
-another factor comes into play.
+other factors comes into play.
 

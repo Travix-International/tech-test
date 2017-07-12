@@ -5,13 +5,13 @@ could be, storing any information that is common to **ALL** e-commerce items
 together and storing everything that could be particular to any item to metadata
 information.
 
-Its also assumed that this will be a client-server architecture. The problem statement
+It's also assumed that this will be a client-server architecture. The problem statement
 is unclear in this regard so a popular, battle tested architecture is assumed.
 
 Type by my understanding is rent, sale, service, etc. Item
 tags are too generic (and mutable) to be included as type information and therefore
 not a reliable source of information (an owner could change all tags of one item
-but is unlikely to change it's type, usually this means deletion or updating with
+but is unlikely to change its type, usually this means deletion or updating with
 the same type).
 
 Transportation cost are also not assumed to be included as what is considered *TAX*.

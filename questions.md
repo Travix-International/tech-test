@@ -10,9 +10,9 @@ product you want to sell or is this a generic amazon-like project)
 
 4. Is this intended for to be a new work or to integrate an existing application.
 
-5. Do you have plenty of capital to spent or are you reluctant to spent money
+5. Do you have plenty of capital to spend or are you reluctant to spend money
 in this greenfield project (this is **really** important for choosing tooling and
 future developers).
 
-6. What is more important for you, that you users are always able to shop or
+6. What is more important to you, that you users are always able to shop or
 that you don't mistakenly sell a product that is out of stock.
