@@ -20,3 +20,6 @@ of every system so an efficient pooling of connections and efficient query (and 
 data could make all the difference. If the volume is too big you could also consider multiple availability zones,
 eg your resources served from low latency links.
 
+As rule of thumb e-commerce sites choose availability over consistency unless
+another factor comes into play.
+
