@@ -7,3 +7,5 @@
 +  How to store data?(RDBS, NoSQL, File etc.)
 +  How the system can respond faster?(to need Caching/Load Balance [Sharding])
 +  Who uses our system? ([3G connection] thin client etc.)
++  How many comuters do we have/need?
++  Is there any distributed data need? (Do we need to synchronize the data across the computers?)
