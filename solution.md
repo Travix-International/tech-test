@@ -1,4 +1,4 @@
-# Solution.md
+# Solution
 
 We were able to do the same with a shorter URL instead of a long URL. Users can access the link associated with the long URL, as well as the original link with the short URL. In places where there is a character limit (such as tweet or print), it will be easier to share in any medium. It is used for optimizing links multi platform devices, tracking individual links to analyze and check to performance, and hiding original URLs, etc.(like e-mail)
 
