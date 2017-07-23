@@ -34,7 +34,6 @@ Additional requirements:
 
 * Short URLs need to be able to answer GETs as well as POSTs appropriately
 
-
 - the url shortener service should be highly available and handle a huge amount of requests per second (could be useful to implement some caching mechanism)
 - url --> shortenedUrl is 1 to 1
 - a GET request to domain/url must forward to domain/shortenedUrl
