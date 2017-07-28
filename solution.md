@@ -1,7 +1,5 @@
 # Solution.md
-//ulr shortening algorithm (here coded in fsharp)
-//taken from: https://stackoverflow.com/questions/742013/how-to-code-a-url-shortener/742047#742047 and reworked
-
+ulr shortening algorithm (here coded in fsharp), taken from [this stackoverflow question](https://stackoverflow.com/questions/742013/how-to-code-a-url-shortener/742047#742047) and reworked.
 
 ```fs
 //an example alphabet
