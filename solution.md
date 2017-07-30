@@ -14,4 +14,4 @@ It’s assumed that this are REST APIs and they have the following responsibilit
 
 The diagram "api-class-diagram.png" describes of how would be the APIs structure.
 
-The diagram "database-diagram,png" it’s a minimal representation of what would be the database structure.
+The diagram "database-diagram.png" it’s a minimal representation of what would be the database structure.
