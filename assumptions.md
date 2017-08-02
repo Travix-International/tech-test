@@ -28,7 +28,7 @@ Requirements:
 
 Additional requirements:
 
-* We want to reduce the number of 404 we would return in case of an outdated (timestamp policy --> bad request 400) short URL
+* We want to reduce the number of 404 we would return in case of an outdated (timestamp policy --> gone 310 or 400 bad request?) short URL
 
 * Short URL need to be quickly accessible across the world : distributed storage/cache for localized low latency
 
