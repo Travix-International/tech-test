@@ -1,1 +1,2 @@
 # Solution.md
+I have added ER and class diagrams and I omitted other part of solution which I think is obvious. Class diagram covers service layer only. Might be seperated to Application Service and Service also according to needs. Also for clarifing some parts of Class diagram I added 3 Code png. 
