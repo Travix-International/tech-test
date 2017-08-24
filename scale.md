@@ -1,1 +1,2 @@
 # Scale
+For a secure scale, our software design needs to implement a single responsability, and for easy scale, increase release and downgrade release with a maximum of vialbility,  a Docked Image with Clould Services with a dynamic scale based on a number of connections or cpu using, would be nice. A cache strategy need be considered to reduce processor increase, network traffice, and inprove response performance.
