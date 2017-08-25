@@ -36,5 +36,11 @@ Another solution, is just hold a hash on the local storage, and when the user cl
 For this scenario, we can use the various searched destinations made by the user, to feed the "static cache", creating a large database cache that contains a hash that can be update when another user makes the same search. 
 This database can save the fares associated to the hash, without any maintance by a department, because we can use the visits to increase and update the cache solution. So, when a user request the best price for one destination
 that database will provide the best price, without request to the company a new price. The cache can be update with the newest price just when the user really wants to buy the flight ticket ("buy´s intention") on the checkout´s page. At this page, we will
-need to confirm the availability of this flightgroup and we can use it to update the cache with the newest price.  
+need to confirm the availability of this flightgroup and we can use it to update the cache with the newest price.  So the requirements for this solutions are:
+
+- Cache In Memory data Structure (Redis, Currerence, CouchDB or other solution);
+- Every search needs to check if there is information with the passed haskKey on cache before search on Air API;
+- If there is no cache associated, the middleware will be responsible so invoke the Air API and update the Cache data Structure;
+- When a customer buy a ticket, the cache needs to be update with the fare used for booking. With it, we can guarantee the price structure for search and booking actions;
+- With this solution, our homepage can have a showcase with update price, based on best fares founded for any destination searched;
 
