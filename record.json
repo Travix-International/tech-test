@@ -3,6 +3,7 @@
   "destination": "AMS",
   "cost": 900USD,
   "category": "economy_plus",
+  'valid_until': "2017-9-22 13:22:00",
   "flight legs":
   [
       {
