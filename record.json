@@ -1,0 +1,23 @@
+{
+  "origin": "JFK",
+  "destination": "AMS",
+  "cost": 900USD,
+  "category": "economy_plus",
+  "flight legs":
+  [
+      {
+        "origin": "JFK",
+        "destination": "Heathrow/London",
+        "carrier": "british airways",
+        "flight duration": "12h30m",
+        "route_id": 12354
+      },
+      {
+        "origin": "Heathrow/London",
+        "destination": "AMS",
+        "carrier": "british airways",
+        "flight duration": "2h30m",
+        "route_id": 5674
+      }
+  ]
+}
