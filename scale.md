@@ -6,4 +6,4 @@ To be prepared to a sudden increase in demand, a cloud based plataform (like GCP
 ## Company hosted solution
 If the solution would be hosted in our own servers, the first change I would do is create a cache strategy. Because data that has been requested recently is more likely to be requested again.
 I would also divide the services and functions (SOA), so each one can be isoleted and have a context.
-A critical point should be load balancers, create queues if needed and apply reduncancy to prevent failovres. The servers would be able to scaled verticaly and horintaly (Particions), because storage and CPU capacity have to able to increase easily.
+A critical point should be load balancers, create queues if needed and apply reduncancy to prevent failovres. The servers should be able to scale verticaly and horintaly (Particions), because we have to be able to increase storage and CPU capacity easily.
