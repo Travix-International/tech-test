@@ -10,4 +10,6 @@ All those screen will be available inside a bottom bar or sliding the screen.
 The users will be able to post and send private messages, besides following and blocking users. They also can interact with other posts by replying, like and sharing. All interactions will gather maximum information as possible from user's device (location, model, camera detaisl, etc). They will be able to maintain their profile details.
 
 ## Sign up and Sign In
-External authenticate will be used. The app/website will only responsible to integrate the services. 
+External authenticate will be used. The app/website will only responsible to integrate the services.
+
+Please, see the use case and architecture diagram for a general view of my solution.
