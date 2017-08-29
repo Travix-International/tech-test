@@ -1,6 +1,6 @@
 # Solution.md
-Implement an in-memory distributed cache considering the following points:
-* **Key-Value Structure**: cf. class-diagram.png 
+Implement an in-memory distributed cache (cf. [system-context-diagram.png](system-context-diagram.png)) considering the following points:
+* **Key-Value Structure**: cf. [class-diagram.png](class-diagram.png) 
   * Key: departureDate, origin and destination
   * Value: lowest price for that route/date and route information: carrier, duration, cabin, flight number, departure and arrival time)
 * **Partitioning**:  Implement a custom sharding algorithm to group popular routes across sites. Computations must be collocated with the cluster nodes caching the data that needs to be processed to maximize performance per site.
