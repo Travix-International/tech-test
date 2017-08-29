@@ -1,15 +1,12 @@
 # Assumptions
-Implement an in-memory distributed cache considering the following points:
-* **Partitioning**:  Implement a custom sharding algorithm to group popular routes across sites. Computations must be collocated with the cluster nodes caching the data that needs to be processed to maximize performance per site.
+* A route corresponds to the smallest unit of travel (a.k.a. leg) i.e. in the case of a flight a takeoff followed by a landing at two set points on a particular carrier and flight number. 
+* The cache will contain the lowest price for a given route on the current date
+* The cache won’t be queried to obtain the lowest price per type of cabin (e.g. coach, premium coach, business and first). 
+* The cache will be queried only to obtain the lowest price on a given route, which is still valid at the moment of querying, regardless of the duration, carrier, aircraft or cabin.
+* Only one-way prices are stored, round-trip prices are not needed.
+* Seats availability is ensured for airfares stored in the cache.
+* The price stored in the cache will correspond only to the price for a single adult, lowest price for child or infant are not needed.
+* Baggage and tax information are not needed.
+* The IMDG will support a Key-Value store.
+* Search results are available for retrieval and processing e.g. queuing service or stream processing platform.
 
-* **Eviction** policy and Overflow: Evict based on entry count up to a MAX_ ENTRY_NR (LRU). Where MAX_ ENTRY_NR is the maximum number of entries in cache before overflowing data to disc. This number must be optimized based on cost constraints and data analytics for popular routes and dates.
-
-* **Expiration policy**: 48h TTL - Eagerly removing entries from cache to optimize cache memory usage cost.
-
-* **Sync Data – Create/Update**: Implement a server function to create and update entries in the cache anytime a customer searches for a particular route:
-  * If there is no price entry in the cache for that route and date (i.e. first time or expired) => create new entry 
-  * If there is an existing price in the cache for that route and date, and the search returned a lower price than the existing one => update existing entry
-
-* **Clean Data – Delete**: Implement a server function to delete past time entries no longer valid as per the current time. The function service is to be called by a background job process updating at a regular interval (4h).
-
-* **API**: Implement a Get REST service to retrieve the lowest price on a given route and date from the cache excluding past time entries.
