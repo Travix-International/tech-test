@@ -20,7 +20,6 @@ This solution consists of 2 different applications: trav.ix and Shortener.API.
 }		
 ```
 
-* 
     * GetShortUrl
 	> GET: shortener.travix.com/shortUrl?url={url}
 
