@@ -16,9 +16,9 @@ This solution consists of 2 different applications: trav.ix and Shortener.API.
 	Request Body: 
     ```json
     {
-        url: "url",  // Url to be shortened
-        validUntil: "validUntil", // Short Url expire date
-        isOneTime: "isOneTime" // Flag to decide if short link is only valid for one time usage.
+        url: "url",  
+        validUntil: "validUntil", 
+        isOneTime: "isOneTime"
     }		
     ```
 
