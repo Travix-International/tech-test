@@ -24,6 +24,7 @@ This solution consists of 2 different applications: trav.ix and Shortener.API. R
 
 
 * Shortener.API returns Http 404, if requested url not found or if it’s one time use url and has been used before. 
+* Shortener.API checks if short url is still valid and deletes the document from db if url has been expired.
 * Cache server caches GET requests which has been made on Shortener.Api. It is responsible for returning cached response and redirecting to Load Balancer if requested url has not been cached before.
 * Cache server skips caching for several rules:
 	* Other than GET requests
@@ -36,7 +37,8 @@ This solution consists of 2 different applications: trav.ix and Shortener.API. R
         shortUrl: "shortUrl",
         url: "url",
         validUntil: "validUntil",
-        isOneTime: "isOneTime"
+        isOneTime: "isOneTime",
+        isDeleted: "isDeleted"
     }		
     ```
 
