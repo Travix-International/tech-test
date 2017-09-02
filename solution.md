@@ -8,7 +8,9 @@ This solution consists of 2 different applications: trav.ix and Shortener.API.
 
 * Shortener.Api is responsible for creating short urls and getting previously created urls, and accessible only from inline network.
 	* CreateShortUrl
-	POST: shortener.travix.com/shortUrl
+
+	> POST: shortener.travix.com/shortUrl
+
 	Request Body: 
 `
 {
