@@ -12,14 +12,15 @@ This solution consists of 2 different applications: trav.ix and Shortener.API.
 	> POST: shortener.travix.com/shortUrl
 
 	Request Body: 
-```
+```json
 {
 	"url": {url},  // Url to be shortened
 	"validUntil": {validUntil} // Short Url expire date
 	"isOneTime": {isOneTime} // Flag to decide if short link is only valid for one time usage.
 }		
 ```
-	* GetShortUrl
+
+* GetShortUrl
 	> GET: shortener.travix.com/shortUrl?url={url}
 
 * Shortener.API returns Http 404, if requested url not found or if it’s one time use url and has been used before. 
