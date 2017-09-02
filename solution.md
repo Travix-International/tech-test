@@ -1,7 +1,7 @@
 # Solution.md
 ## URL Shortener System Solution
 
-This solution consists of 2 different applications: trav.ix and Shortener.API.
+This solution consists of 2 different applications: trav.ix and Shortener.API. Related diagrams have been included in solution. (shortener-api-diagram.png, trav-ix-diagram.png)
 
 **Shortener.API**
 
