@@ -7,8 +7,11 @@ This solution consists of 2 different applications: trav.ix and Shortener.API.
 **Shortener.API**
 
 * Shortener.Api is responsible for creating short urls and getting previously created urls, and accessible only from inline network.
-	* CreateShortUrl
+	
+    * GetShortUrl
+	> GET: shortener.travix.com/shortUrl?url={url}
 
+    * CreateShortUrl
 	> POST: shortener.travix.com/shortUrl
 
 	Request Body: 
@@ -20,8 +23,6 @@ This solution consists of 2 different applications: trav.ix and Shortener.API.
 }		
 ```
 
-    * GetShortUrl
-	> GET: shortener.travix.com/shortUrl?url={url}
 
 * Shortener.API returns Http 404, if requested url not found or if it’s one time use url and has been used before. 
 * Cache server caches GET requests which has been made on Shortener.Api. It is responsible for returning cached response and redirecting to Load Balancer if requested url has not been cached before.
