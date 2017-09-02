@@ -14,7 +14,7 @@ This solution consists of 2 different applications: trav.ix and Shortener.API.
 	> POST: shortener.travix.com/shortUrl
 
 	Request Body: 
-    ```json
+    ```bson
     {
         url: "url",  
         validUntil: "validUntil", 
