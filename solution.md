@@ -38,7 +38,7 @@ The content administratos will see additional options to administrate the conten
 
 > Categories: the user can create, edit, and remove  categories. One category can have other sub-Categories creating a hierarchy.
   
-> Products: the user can create, edit and remove products, manage the quantity of the products, search a group of products by content or category and delete a selection of those products
+> Products: the user can create, edit and remove products, manage the quantity of the products, search a group of products by content or category and delete a selection of those products.
   
 > Taxes: the user can add the diferent taxes, with the description and percentage of each one.
   
