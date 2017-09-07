@@ -2,7 +2,8 @@
 
 ## Big Picture
 
-[Imagem]
+![Bigpicture](/blob/master/bigpicture.jpg)
+Format: ![Bigpicture](url)
 
 The proposed solution is composed by a frontend and a backend applications. The frontend built as SPA using VueJS. The objective of frontend is to allow a easy way to generate short URLs manually.
 
@@ -26,7 +27,8 @@ After 6.2 or 6.3 step, if necessary, the parameter one-shot usage must be update
 
 ## Design
 
-[Imagem]
+![Design of solution](/blob/master/design.jpg)
+Format: ![Design of solution](url)
 
 About design in design.jpg picture, the key points are: 
 
