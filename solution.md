@@ -7,9 +7,7 @@ This is a component diagram that describes the solution:
 
 ## The Presentation layer
 
-The presentation layer is MVC Web Application with a HTML5 Responsive design. The user experience is going to be enriched with Ajax, and Jquery.
-
-The application will provide public pages with the categories, products, informartion about the store, and search results.
+The presentation layer is an MVC Web Application with an HTML5 Responsive design and the user experience is going to be enriched with Jquery and AJAX.
 
 ## The Businness Logic
 
