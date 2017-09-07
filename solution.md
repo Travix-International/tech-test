@@ -6,7 +6,7 @@
 
 The proposed solution is composed by a frontend and a backend applications. The frontend built as SPA using VueJS. The objective of frontend is to allow a easy way to generate short URLs manually.
 
-The backend, built with ASP.NET Core MVC and HazelCast as Database, has two main responsibilities: 
+The stateless backend, built with ASP.NET Core MVC and HazelCast as Database, has two main responsibilities: 
 
 1. Generate a short URL receiving the target site URL with your configurations (expires date, one-shot usage, friendly error URL or a flag if it is a URL that will receive POST request). This endpoints of API could be used by either frontend application or others client applications.
 
