@@ -4,7 +4,7 @@ This is a component diagram that describes the solution:
 
 ![Component Diagram](https://github.com/RubenTejada/tech-test/blob/master/ShoppingCartComponents.png)
 
-#The Presentation layer#
+**The Presentation layer**
 
 The presentation layer is MVC Web application
 
