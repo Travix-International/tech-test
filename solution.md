@@ -9,32 +9,32 @@ This is a component diagram that describes the solution:
 
 The presentation layer is an MVC Web Application with an HTML5 Responsive design and the user experience is going to be enriched with Jquery and AJAX.
 
-## The Businness Logic
+## The Business Logic
 
-The Business Logic is going to be several .Net Libaries to provide all the Business rules, Domain objects and interfaces of the application. 
+The Business Logic is going to be several .Net Libraries to provide all the Business rules, Domain objects and interfaces of the application. 
 
-Abstrabction are going to be used in order to design a system with low coupling, allowing making changes to the Data layer, the Search Servicer, and the Payment Services without making any changes to the business logic. In order to improve the test and manintenance  of the application, SOLID principles are going to be used.
+Abstraction is going to be used in order to design a system with low coupling, allowing making changes to the Data layer, the Search Servicer, and the Payment Services without making any changes to the business logic. In order to improve the test and maintenance  of the application, SOLID principles are going to be used.
 
 ## The Data layer
 
-The data layes is going to be conformed by a SQL Server Database, using Entity framework for the access to the database.
+The data layer is going to be conformed by a SQL Server Database, using Entity framework for the access to the database.
 
 ## The Search Service
 
-In order to improve the response of the search, and to provide help and suggestion to the user during the search proccess, the search is going to be managed separatelly. The search service could be implemente with solutions like Lucene, Microsoft Search Server or an implementation of SQL Full text Search.
+In order to improve the response of the search, and to provide help and suggestion to the user during the search process, the search is going to be managed separatelly. The search service could be implemente with solutions like Lucene, Microsoft Search Server or an implementation of SQL Full text Search.
 
 
-## Aplication Behavior by Role:
+## Application Behavior by Role:
 
 **Anonymous users:**:
->The application will allow the user to navigate the diferent categories and products, and will use temporary users and cookies to persist the products in the shopping cart. 
+>The application will allow the user to navigate the different categories and products and will use temporary users and cookies to persist the products in the shopping cart. 
 
 **Authenticated users**:
 >The authenticated user will have the options to see tha cart's items in any authenticated machine, and complete an order.
 
 **Content administrator**
 
-The content administratos will see aditional options to administrate the content and configuration of the store:
+The content administratos will see additional options to administrate the content and configuration of the store:
 
 > Categories: the user can create, edit, and remove  categories. One category can have other sub-Categories creating a hierarchy.
   
