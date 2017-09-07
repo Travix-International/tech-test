@@ -11,7 +11,7 @@ The presentation layer is an MVC Web Application with an HTML5 Responsive design
 
 ## The Businness Logic
 
-The Business Logic is going to be several .Net Libaries to provide all the Business rules and Domain objects and interfaces of the application. 
+The Business Logic is going to be several .Net Libaries to provide all the Business rules, Domain objects and interfaces of the application. 
 
 Abstrabction are going to be used in order to design a system with low coupling, allowing making changes to the Data layer, the Search Servicer, and the Payment Services without making any changes to the business logic. In order to improve the test and manintenance  of the application, SOLID principles are going to be used.
 
