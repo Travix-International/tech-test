@@ -9,3 +9,5 @@
 4. The backup of volatible data of Hazelcast can be done through script.
 
 5. To avoid 404, a friendly error URL can be informed beside the target URL. The Trav.ix can have a generic URL too.
+
+6. 400 ms is the limit of response time in at least 90% of requests.
