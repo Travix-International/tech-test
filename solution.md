@@ -6,11 +6,13 @@ This is a component diagram that describes the solution:
 
 **The Presentation layer**
 
-The presentation layer is MVC Web application
+The presentation layer is MVC Web Application with the following funcionality:
+
+The application will provide public pages with the categories, products and informartion about the store
 
 With anonymous users, the application will allow the user to navigate the diferent categories and products, and will use temporary users and cookies to persist the products in the shopping cart. 
 
-When the users creates a profile, or login to the application, the information of the shopping cart will be asociated to the user.
+When the users creates a profile, or login to the application, the information of the shopping cart will be asociated to the user and save.
 
 With users with the role of content administrator the application will provide the following administration options:
   
