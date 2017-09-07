@@ -30,9 +30,12 @@ In order to improve the response of the search, and to provide help and suggesti
 >The application will allow the user to navigate the diferent categories and products, and will use temporary users and cookies to persist the products in the shopping cart. 
 
 **Authenticated users**:
->The authenticated user will have the options of see tha cart's items in any authenticated machine, and complete an order.
+>The authenticated user will have the options to see tha cart's items in any authenticated machine, and complete an order.
 
-**Users with the role of content administrator**
+**Content administrator**
+
+The content administratos will see aditional options to administrate the content and configuration of the store:
+
 > Categories: the user can create, edit, and remove  categories. One category can have other sub-Categories creating a hierarchy.
   
 > Products: the user can create, edit and remove products, manage the quantity of the products, search a group of products by content or category and delete a selection of those products
