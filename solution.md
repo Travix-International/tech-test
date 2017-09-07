@@ -24,23 +24,17 @@ The data layes is going to be conformed by a SQL Server Database, using Entity f
 In order to improve the response of the search, and to provide help and suggestion to the user during the search proccess, the search is going to be managed separatelly. The search service could be implemente with solutions like Lucene, Microsoft Search Server or an implementation of SQL Full text Search.
 
 
-
 ## Aplication Behavior by Role:
 
 **Anonymous users:**
 
    The application will allow the user to navigate the diferent categories and products, and will use temporary users and cookies to persist the products in the shopping cart. 
 
-   When the users creates a profile, or login to the application, the information of the shopping cart will be asociated to the user and save.
-
 **Authenticated users**
 
-The authenticated user will have the options of see tha cart items in any authenticated machine, and complete an order.
-
+The authenticated user will have the options of see tha cart's items in any authenticated machine, and complete an order.
 
 **Users with the role of content administrator**
-
-the application will provide the following administration options:
   
 >- Categories: the user can create, edit, and remove  categories. One category can have other sub-Categories creating a hierarchy.
   
