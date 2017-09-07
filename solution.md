@@ -12,7 +12,7 @@ The backend, built with ASP.NET Core MVC and HazelCast as Database, has two main
 
 2. Handle the short URL: validating the criteria and returning HTTP Status Code 302 response with appropriate location header parameter.
 
-The most of steps of step by step shown by the bigpicture.jpg image are auto explaining. However, it is important to pay attention in flowchart.
+The most of steps of step by step shown in above image are auto explaining. However, it is important to pay attention in flowchart.
 
 When the backend receive the short URL in step 5, there are three possible paths:
 
@@ -28,7 +28,7 @@ After 6.2 or 6.3 step, if necessary, the parameter one-shot usage must be update
 
 ![Design of solution](/design.jpg)
 
-About design in design.jpg picture, the key points are: 
+About design, the key points are: 
 
 * The URL Shorter is a kind of facade between the core of Trav.ix and the algorithms to short a URL. URL Shorter can have his own implementation or call other classes.
 
