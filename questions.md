@@ -1,1 +1,11 @@
 # Questions
+---
+- Is there any non-funcional requirements such as response time, availability percentage etc.?
+- Does trav.ix handle to harmful, spammy links? 
+- Can user deactivate his short urls manually before it expires?
+- Is the url expiration time configurable?
+- Do we have any hardware and/or software limitations?
+- What path should the system take when it receives DELETE or PUT requests?
+- Do we provide API for internal or external usage?
+- If we have API, what are the API limits such as calls per second etc.?
+- Does trav.ix allow anonymous access to web app or Rest API?
