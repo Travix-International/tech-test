@@ -15,7 +15,7 @@ Estimating that one small server can handle 30 requests per second, in the worst
 
 ## Points that can be improved to reach more performance yet:
 
-1. Use of Go language to handle request of schemes unsupported by ASP.NET Core MVC or to speed up the response time
+1. Use of Go language to handle request of schemes unsupported by ASP.NET Core MVC, to speed up the response time or increase the throughput
 2. Segregation of database in write and read operations
 3. Geographic Load Balancing
 4. Short URLs *interceptable* by a CDN
