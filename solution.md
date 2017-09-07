@@ -16,11 +16,32 @@ With users with the role of content administrator the application will provide t
   
 >- Categories: where the user can create, edit, and remove  categories. One category can have other sub-Categories creating a hierarchy.
   
->- Products:Here the user can create new products, manage the quantity of the products, edit the products. search a group of products by content or category and delete a selection of those products
+>- Products: Here the user can create new products, manage the quantity of the products, edit the products. search a group of products by content or category and delete a selection of those products
   
 >- Taxes, here the user can add the diferent taxes, with the description and percentage of each one.
   
 >- Discounts, here the user can create discount rules, indicating the products and the rule to apply the discount.
+
+In order to allow the separation of this 
+
+
+**The Businness Logic**
+
+The Business logic is going to provide all the Business rule, and Domain objects of the application. Abstrabction are going to be used in order to design a system with low coupling, allowing making changes to the Data layer, the Search Servicer, and the Payment Services without making any changes to the business logic.
+
+**The Data layer**
+
+The data layes is going to be coformed by a SQL Server Database, and Entity framework for the access to the database.
+
+**The Search Service**
+
+In order to improve the response of the search, and to provide help and suggestion to the user during the search proccess, the search is going to be managed separatelly. The search service could be implemente with solutions like Lucene, Microsoft Search Server or an implementation of SQL Full text Search.
+
+
+
+
+  
+  
   
 
 
