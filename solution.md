@@ -11,11 +11,13 @@ The presentation layer is an MVC Web Application with an HTML5 Responsive design
 
 ## The Businness Logic
 
-The Business logic is going to provide all the Business rules, and Domain objects of the application. Abstrabction are going to be used in order to design a system with low coupling, allowing making changes to the Data layer, the Search Servicer, and the Payment Services without making any changes to the business logic. In order to improve test and manintenance proccess of the application the SOLID principles are going to be used.
+The Business Logic is going to be several .Net Libaries to provide all the Business rules and Domain objects and interfaces of the application. 
+
+Abstrabction are going to be used in order to design a system with low coupling, allowing making changes to the Data layer, the Search Servicer, and the Payment Services without making any changes to the business logic. In order to improve the test and manintenance  of the application, SOLID principles are going to be used.
 
 ## The Data layer
 
-The data layes is going to be coformed by a SQL Server Database, and Entity framework for the access to the database.
+The data layes is going to be conformed by a SQL Server Database, using Entity framework for the access to the database.
 
 ## The Search Service
 
