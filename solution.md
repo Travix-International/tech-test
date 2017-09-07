@@ -14,13 +14,13 @@ When the users creates a profile, or login to the application, the information o
 
 With users with the role of content administrator the application will provide the following administration options:
   
- >- Categories: where the user can create, edit, and remove  categories. One category can have other sub-Categories creating a hierarchy.
+>- Categories: where the user can create, edit, and remove  categories. One category can have other sub-Categories creating a hierarchy.
   
- >- Products:Here the user can create new products, manage the quantity of the products, edit the products. search a group of products by content or category ad
+>- Products:Here the user can create new products, manage the quantity of the products, edit the products. search a group of products by content or category ad
   
- >-Taxes, here the user can add the diferent taxes, with the description and percentage of each one.
+>- Taxes, here the user can add the diferent taxes, with the description and percentage of each one.
   
- >- Discounts, here the user can create discount rules, indicating the products and the rule to apply the discount.
+>- Discounts, here the user can create discount rules, indicating the products and the rule to apply the discount.
   
 
 
