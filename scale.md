@@ -19,3 +19,4 @@ Estimating that one small server can handle 30 requests per second, in the worst
 2. Segregation of database in write and read operations
 3. Geographic Load Balancing
 4. Short URLs *interceptable* by a CDN
+5. Containers to improve the provisioning time of new instances
