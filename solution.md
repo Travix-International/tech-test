@@ -13,7 +13,7 @@ The application will provide public pages with the categories, products, informa
 
 ## The Businness Logic
 
-The Business logic is going to provide all the Business rule, and Domain objects of the application. Abstrabction are going to be used in order to design a system with low coupling, allowing making changes to the Data layer, the Search Servicer, and the Payment Services without making any changes to the business logic. 
+The Business logic is going to provide all the Business rules, and Domain objects of the application. Abstrabction are going to be used in order to design a system with low coupling, allowing making changes to the Data layer, the Search Servicer, and the Payment Services without making any changes to the business logic. In order to improve test and mantain proccess of the application the SOLID principles are going to be used.
 
 ## The Data layer
 
