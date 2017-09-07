@@ -32,4 +32,4 @@ About design, the key points are:
 
 * The URL Shorter is a kind of facade between the core of Trav.ix and the algorithms to short a URL. URL Shorter can have his own implementation or call other classes.
 
-* The Post Executor is responsible to resend all header parameters to target system.
+* The Post Executor is responsible by resend all header parameters to target system.
