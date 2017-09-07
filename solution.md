@@ -7,13 +7,13 @@ This is a component diagram that describes the solution:
 
 ## The Presentation layer
 
-The presentation layer is MVC Web Application with the following funcionality:
+The presentation layer is MVC Web Application with a HTML5 Responsive design. The user experience is going to be enriched with Ajax, and Jquery.
 
-The application will provide public pages with the categories, products, informartion about the store  and search results.
+The application will provide public pages with the categories, products, informartion about the store, and search results.
 
 ## The Businness Logic
 
-The Business logic is going to provide all the Business rules, and Domain objects of the application. Abstrabction are going to be used in order to design a system with low coupling, allowing making changes to the Data layer, the Search Servicer, and the Payment Services without making any changes to the business logic. In order to improve test and mantain proccess of the application the SOLID principles are going to be used.
+The Business logic is going to provide all the Business rules, and Domain objects of the application. Abstrabction are going to be used in order to design a system with low coupling, allowing making changes to the Data layer, the Search Servicer, and the Payment Services without making any changes to the business logic. In order to improve test and manintenance proccess of the application the SOLID principles are going to be used.
 
 ## The Data layer
 
