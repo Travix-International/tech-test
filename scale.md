@@ -1,1 +1,3 @@
 # Scale
+
+To keep the same quilty of service, we should add new servers to our systems. Adding new servers to system will create data inconsistency between servers and this can result different responses from different servers. To avoid this, when a cache object is changed(inserted/updated/deleted), we should inform other instances of the application about the change to keep data and responses consistent.
