@@ -1,1 +1,3 @@
 # Solution.md
+
+In my solution, I kept two different caches for routes and lowest route fares. When a request comes to route manager, it will directly respond from the cache it the response exists in the cache and it is present. If the response is expired or does not exist, route manager will request the current data from route service and update the route cache. It will also update the lowest route fares cache if the lowest fare of a route changed.
