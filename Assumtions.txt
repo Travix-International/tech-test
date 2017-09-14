@@ -1,0 +1,7 @@
+Assumptions:
+1. Need to allocate resources i.e. developers, laptops, internet, API licenses etc.
+2. Need to identify individials required skills to develop this system.
+3. Need to define a timeframe.
+4. Developers need to work full time 40 hours a week to get it done on time.
+5. Need to arrange proper internet connection to communicate with another system.
+6. Documentation of all steps from requirements to analysis to design to development and to testing.
