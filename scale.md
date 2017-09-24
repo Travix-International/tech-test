@@ -1,4 +1,4 @@
-#Scale
+# Scale
 
 Since this application will be hosted on Azure App Service, it will be able to:
 
