@@ -1,6 +1,6 @@
 # Scale
 In order to scale with need to consider several factors:  
-If we are hosting the implementation locally we can scale horizontally adding more servers to the pool, scale vertically by adding ore power to existing machines. We can put a load balancer in front of the servers to distribute the loads properly between them.
+If we are hosting the implementation locally we can scale horizontally adding more servers to the pool, scale vertically by adding ore power to existing machines. We can put a load balancer in front of the servers to distribute the loads properly between them.  
 ![](scale-vm-scenario.png?raw=true)
 
  We also need to consider the external systems we depend on(JIRA and HR Payroll), for those we can add caching(redis cache) to do reads faster, if we need writes or data modification on those systems we can put queues to handle multiple requests.  
