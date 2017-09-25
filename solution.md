@@ -2,6 +2,8 @@
 
 From reading the requirements for Trawiller, I would propose building the platform creating individual micro services grouped within a virtual containers. 
 We can then deploy these containers to a cloud plaform which will then host and serve a REST API for the web and mobile applications.
+For the data layer of the platform we can use MongoDB. The data layer will be separate from the micro service application layer which will run on a cloud platform.
+Our file storage layer would use the cloud platform's file storage.
 
 My reasoning for this is as follows: 
 - To facilitate efficient dev ops 
