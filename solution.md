@@ -19,5 +19,3 @@ B. Route Module
     2. From the index Action, call the GetUrl method in the Url Processing Module or the public api(in case you are using javascript) to get the original url
     3. If the GetUrl method returned a valid url redirect to that url else render an info page 
 
-
-    **Please forgive my diagram i used an evaluation copy of visual paradigm so it watermarked my daigram** 
