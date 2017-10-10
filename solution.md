@@ -17,6 +17,7 @@ Here is my thought around this challenge.
     4. Expose an Api to compress and get url (for users).
 
 (B) Route Module:
+
     1. Create an Index action for both Get and Post httpverbs that accept a string param which represents the compressed version original url.
     2. From the index Action, call the GetUrl method in the Url Processing Module or the public api(in case you are using javascript) to get the original url.
     3. If the GetUrl method returned a valid url redirect to that url else render an info page. 
