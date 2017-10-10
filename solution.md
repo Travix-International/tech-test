@@ -4,7 +4,7 @@ Here is my thought around this challenge.
 (A) Url Processing Module:
     
     1. Create ProcessorUrl class with
-        > GenerateShortUrlAndSave method that accepts a string param (eg:                               www.example.io/someveryveryvery/longlonglong?param=param2) and an expiry_date.
+        > GenerateShortUrlAndSave method that accepts a string param (eg: www.example.io/someveryveryvery/longlonglong?param=param2) and an expiry_date.
         > A GetUrl method that accepts string param (eg: f2zJZP).
     
     2. The GenerateShortUrlAndSave method should
