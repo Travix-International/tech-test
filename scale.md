@@ -1,1 +1,2 @@
 # Scale
+As a microservice architecture horizontal scaling is very easy to implement and the best way to increase response time in general, other good strategy would be the implementation of caching for the HR data since it does not change much, a shared database among the APIs could also be implemented to facilitate the access to it (Depending on the data size).
