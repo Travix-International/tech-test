@@ -4,4 +4,4 @@
 3. HR Api will return a list of reporters and sub reportees if any are found
 4. JIRA will store a row on its data base for every tasks that has its hours updated and it will record the amount of hours worked
 5. If the person making the request has no employees under his charge then the HR service will return an empty list for the employeeList field  
-6. JIRA and HR have interefaces o their side that will alow connection to our APIs  
+6. JIRA and HR have interfaces on their side that will allow connection to our APIs  

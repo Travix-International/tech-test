@@ -7,4 +7,4 @@
 6. If going into saas, which will it be the pricing strategy? Based on which resource?
 7. Is the single sign on with google the only means of login? Should the app support user/pass or LDAP?
 8. Is the idea to make an smartphone version of this or only web application?
-9. If no creitical information will be sent, Should the JIRA/HR data be encrypted? 
+9. Is the information been sent critical and worth it of encryption? 
