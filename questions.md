@@ -1,1 +1,11 @@
 # Questions
+- Is it a full web application with UI (like goo.gl or tinyUrl) or just Api is enough?
+- Does it need authentication(user account, api key, ...)?
+- Do you need analytics? (for short links as well as actual urls)
+- Can users choose their short links too or all will be auto-generated? (ee.g.:  www.trav.ix/abby)
+- Can users modify or delete their links?
+- Are there any software/hardware limitations?
+- What is strategy to dealing with outdated links(including on-shot links after usage) or even very old links? do we need to keep them?
+- What is the strategy to dealing with duplicate long urls? (e.g.: if n requests came to shorten "https://www.travix.com/contact" in different times)
+- Is there any standard for designing API in travix?
+- What about the Security concerns? (e.g.: DDos attacks , or in case someone try to abuse service)
